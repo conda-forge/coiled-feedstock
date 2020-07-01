@@ -29,6 +29,7 @@ test:
     - pip
   commands:
     - pip check
+    - coiled env create --help
   imports:
     - coiled
 

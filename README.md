@@ -5,7 +5,7 @@ Home: https://coiled.io
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: Deploy Dask cluster using Coiled Cloud
 

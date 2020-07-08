@@ -1,5 +1,5 @@
 {% set name = "coiled" %}
-{% set version = "0.0.9" %}
+{% set version = "0.0.10" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 2bcfacb09b93be2ecde77a1ee22567cfb3292b304696dc565b1fe01beb6ec988
+  sha256: caf1d9716d26d5a88720a911ec52951f08b8553514db0caf3a08ff8c7502712c
 
 build:
   noarch: python
@@ -22,6 +22,7 @@ requirements:
     - python >=3.6
     - aiohttp
     - aiobotocore >=0.12.0,<0.13
+    - click
     - distributed >=2.19.0
 
 test:
@@ -30,6 +31,7 @@ test:
   commands:
     - pip check
     - coiled env create --help
+    - coiled login --help
   imports:
     - coiled
 

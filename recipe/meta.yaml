@@ -21,16 +21,16 @@ requirements:
   run:
     - python >=3.6
     - aiohttp
-    - aiobotocore >=0.12.0,<0.13
+    - aiobotocore >=1.0.7
     - click
-    - distributed >=2.19.0
+    - distributed >=2.20.0
 
 test:
   requires:
     - pip
   commands:
     - pip check
-    - coiled env create --help
+    - coiled install --help
     - coiled login --help
   imports:
     - coiled

@@ -1,5 +1,5 @@
 {% set name = "coiled" %}
-{% set version = "0.0.18" %}
+{% set version = "0.0.19" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: bfb8b0ff98deceab28bf9370cd3b3b2fc0dcb37fc13c45e9c14b3f064c572a20
+  sha256: ca894be8cecda59ffe59e21e744807c582a5239af89cea6d41c2686cb4b05871
 
 build:
   noarch: python
@@ -23,7 +23,10 @@ requirements:
     - aiohttp
     - aiobotocore >=1.0.7
     - click
-    - distributed >=2.20.0
+    - dask >=2.23.0
+    - s3fs
+    - pandas >=1.1.0
+    - ipython
 
 test:
   requires:
@@ -32,6 +35,8 @@ test:
     - pip check
     - coiled install --help
     - coiled login --help
+    - coiled env --help
+    - coiled --version
   imports:
     - coiled
 

@@ -1,5 +1,5 @@
 {% set name = "coiled" %}
-{% set version = "0.0.25" %}
+{% set version = "0.0.26" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: f8af434fe9ea9c9311e351ac682e6220df4a733835ad2a46a9378ce5e47d60d4
+  sha256: cbf1028b3ae1fc0f4a1340f5a0119b4d112ceedd945d562636b2088a03abc467
 
 build:
   noarch: python
@@ -21,7 +21,7 @@ requirements:
   run:
     - python >=3.6
     - aiohttp
-    - aiobotocore >=1.0.7
+    - aiobotocore >=1.1.1
     - click
     - dask >=2.23.0
     - s3fs

@@ -5,9 +5,11 @@ Home: https://coiled.io
 
 Package license: BSD-3-Clause
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/coiled-feedstock/blob/master/LICENSE.txt)
 
 Summary: Deploy Dask cluster using Coiled Cloud
+
+Documentation: https://coiled.io/cloud
 
 A Python package to easily create, manage, and connect to Dask deployments
 using Coiled Cloud.

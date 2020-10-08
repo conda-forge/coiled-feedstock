@@ -21,7 +21,7 @@ requirements:
   run:
     - python >=3.6
     - aiohttp
-    - aiobotocore >=1.0.7
+    - aiobotocore >=1.1.1
     - click
     - dask >=2.23.0
     - s3fs

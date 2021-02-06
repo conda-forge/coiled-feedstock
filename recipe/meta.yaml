@@ -28,6 +28,7 @@ requirements:
     - s3fs
     - pandas >=1.1.0
     - ipython
+    - rich
 
 test:
   requires:

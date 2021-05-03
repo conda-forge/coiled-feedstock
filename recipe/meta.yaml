@@ -31,7 +31,8 @@ requirements:
     - s3fs
     - pandas >=1.1.0
     - ipython
-    - rich
+    - rich>=9.4.0
+    - typing-extensions
 
 test:
   requires:

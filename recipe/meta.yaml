@@ -16,10 +16,13 @@ build:
 
 requirements:
   host:
-    - python >=3.6
+    - python >=3.7
     - pip
+    - wheel
+    - pbr
+    - versioneer-518
   run:
-    - python >=3.6
+    - python >=3.7
     - aiohttp
     - aiobotocore >=1.1.1
     - boto3

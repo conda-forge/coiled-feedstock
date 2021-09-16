@@ -61,6 +61,7 @@ about:
 
 extra:
   recipe-maintainers:
+    - matthiasdv
     - jrbourbeau
     - mrocklin
     - ian-r-rose

@@ -123,6 +123,7 @@ Feedstock Maintainers
 
 * [@ian-r-rose](https://github.com/ian-r-rose/)
 * [@jrbourbeau](https://github.com/jrbourbeau/)
+* [@matthiasdv](https://github.com/matthiasdv/)
 * [@mrocklin](https://github.com/mrocklin/)
 * [@necaris](https://github.com/necaris/)
 

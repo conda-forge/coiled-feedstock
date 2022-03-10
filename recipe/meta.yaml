@@ -34,6 +34,8 @@ requirements:
     - ipython
     - rich >=9.4.0
     - typing-extensions
+    - jmespath
+    - jinja2
 
 test:
   requires:

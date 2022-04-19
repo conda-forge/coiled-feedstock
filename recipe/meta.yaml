@@ -11,8 +11,10 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
+  entry_points:
+    - coiled = coiled.cli.core:cli
 
 requirements:
   host:

@@ -34,6 +34,7 @@ requirements:
     - s3fs
     - pandas >=1.1.0
     - ipython
+    - ipywidgets>=7.0, <8.0
     - rich >=9.4.0
     - typing-extensions
     - jmespath

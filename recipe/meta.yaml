@@ -39,6 +39,7 @@ requirements:
     - typing-extensions
     - jmespath
     - jinja2
+    - textual
 
 test:
   requires:

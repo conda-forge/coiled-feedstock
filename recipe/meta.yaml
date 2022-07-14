@@ -41,6 +41,7 @@ requirements:
     - jinja2
     - textual
     - jsondiff
+    - importlib_metadata
 
 test:
   requires:

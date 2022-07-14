@@ -1,5 +1,5 @@
 {% set name = "coiled" %}
-{% set version = "0.2.12" %}
+{% set version = "0.2.13" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: e83ded58badd9d726f9b7915d88025a88aafbde69f4e4037d170aec36c6001f1
+  sha256: 473e89e568711b96d43f0304aab97fc2562f23a1ca050445bb8d67519c9c58a0
 
 build:
   noarch: python
@@ -41,6 +41,7 @@ requirements:
     - jinja2
     - textual
     - jsondiff
+    - importlib-metadata
 
 test:
   requires:
@@ -70,9 +71,7 @@ extra:
   recipe-maintainers:
     - ntabris
     - shughes-uk
-    - yesemkebede
     - dchudz
-    - matthiasdv
     - jrbourbeau
     - mrocklin
     - ian-r-rose

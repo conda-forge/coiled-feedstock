@@ -152,9 +152,7 @@ Feedstock Maintainers
 * [@dchudz](https://github.com/dchudz/)
 * [@ian-r-rose](https://github.com/ian-r-rose/)
 * [@jrbourbeau](https://github.com/jrbourbeau/)
-* [@matthiasdv](https://github.com/matthiasdv/)
 * [@mrocklin](https://github.com/mrocklin/)
 * [@ntabris](https://github.com/ntabris/)
 * [@shughes-uk](https://github.com/shughes-uk/)
-* [@yesemkebede](https://github.com/yesemkebede/)
 

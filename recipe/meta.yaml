@@ -38,7 +38,7 @@ requirements:
     - pip
     - setuptools
     - wheel
-packagingtest:
+test:
   requires:
     - pip
   commands:

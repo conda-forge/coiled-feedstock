@@ -27,9 +27,9 @@ requirements:
     - python >=3.7
     - aiohttp
     - boto3
-    - click>=7.1
-    - dask>=2.23.0
-    - rich>=11.2.0
+    - click >=7.1
+    - dask >=2.23.0
+    - rich >=11.2.0
     - typing-extensions
     - backoff
     - jmespath

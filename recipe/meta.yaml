@@ -1,5 +1,5 @@
 {% set name = "coiled" %}
-{% set version = "0.2.59" %}
+{% set version = "0.2.60" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 3b8220a6b74e9b0c9dfbe6a8ae7a01f0788f969461cf8e3132dfde9c0b26529e
+  sha256: 1b9b7a16e9e427204577fc6d4b7c806c6b978c190b4e4167ce253a6a73c87f5f
 
 build:
   noarch: python
@@ -26,23 +26,18 @@ requirements:
   run:
     - python >=3.7
     - aiohttp
-    - aiobotocore >=1.1.1
-    - backoff >=1.10.0,<2.0.0
     - boto3
     - click >=7.1
     - dask >=2.23.0
-    - s3fs
-    - pandas >=1.1.0
-    - ipython
-    - ipywidgets >=7.0,<8.0
     - rich >=11.2.0
     - typing-extensions
+    - backoff
     - jmespath
-    - jinja2
-    - textual
     - jsondiff
     - importlib-metadata
-
+    - pip
+    - setuptools
+    - wheel
 test:
   requires:
     - pip

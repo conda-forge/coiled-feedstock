@@ -64,6 +64,7 @@ about:
 
 extra:
   recipe-maintainers:
+    - dan-blanchard
     - ntabris
     - shughes-uk
     - dchudz

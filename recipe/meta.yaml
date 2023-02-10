@@ -38,6 +38,7 @@ requirements:
     - pip
     - setuptools
     - wheel
+    - ipywidgets
 test:
   requires:
     - pip

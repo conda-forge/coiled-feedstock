@@ -44,7 +44,6 @@ test:
     - pip
   commands:
     - pip check
-    - coiled install --help
     - coiled login --help
     - coiled env --help
     - coiled --version

@@ -35,10 +35,11 @@ requirements:
     - jmespath
     - jsondiff
     - importlib-metadata
-    - pip
+    - pip >=19.3
     - setuptools
     - wheel
     - ipywidgets
+    - prometheus_client
 test:
   requires:
     - pip

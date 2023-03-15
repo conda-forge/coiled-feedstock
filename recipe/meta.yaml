@@ -40,6 +40,7 @@ requirements:
     - wheel
     - ipywidgets
     - prometheus_client
+    - filelock >=3.0
 test:
   requires:
     - pip

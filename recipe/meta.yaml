@@ -1,5 +1,5 @@
 {% set name = "coiled" %}
-{% set version = "0.5.3" %}
+{% set version = "0.5.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 0739f1db27112fdc470093f6ea93f9e5ebcc990f62191d577686de349eee3eb7
+  sha256: 34cfa4ddf1669ca0de64f1f5c5fde81a60f5d52d670609e8657c29ea7cd9850c
 
 build:
   noarch: python
@@ -40,6 +40,7 @@ requirements:
     - wheel
     - ipywidgets
     - prometheus_client
+    - filelock >=3.0
 test:
   requires:
     - pip

@@ -21,8 +21,8 @@ requirements:
     - python >=3.7
     - pip
     - wheel
-    - pbr
-    - versioneer-518
+    - hatchling
+    - hatch-vcs
   run:
     - python >=3.7
     - aiohttp

@@ -151,7 +151,6 @@ Feedstock Maintainers
 
 * [@dan-blanchard](https://github.com/dan-blanchard/)
 * [@dchudz](https://github.com/dchudz/)
-* [@ian-r-rose](https://github.com/ian-r-rose/)
 * [@jrbourbeau](https://github.com/jrbourbeau/)
 * [@mrocklin](https://github.com/mrocklin/)
 * [@ntabris](https://github.com/ntabris/)

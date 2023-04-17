@@ -26,21 +26,23 @@ requirements:
   run:
     - python >=3.7
     - aiohttp
+    - backoff
     - boto3
     - click >=7.1
     - dask >=2.23.0
-    - rich >=11.2.0
-    - typing-extensions
-    - backoff
+    - distributed >=2.23.0
+    - filelock
+    - importlib-metadata
+    - ipywidgets
     - jmespath
     - jsondiff
-    - importlib-metadata
     - pip >=19.3
-    - setuptools
-    - wheel
-    - ipywidgets
     - prometheus_client
-    - filelock >=3.0
+    - rich >=11.2.0
+    - setuptools
+    - typing-extensions
+    - wheel
+
 test:
   requires:
     - pip

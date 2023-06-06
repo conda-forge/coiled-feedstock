@@ -18,13 +18,13 @@ build:
 
 requirements:
   host:
-    - python >=3.7
+    - python >=3.8
     - pip
     - wheel
     - hatchling
     - hatch-vcs
   run:
-    - python >=3.7
+    - python >=3.8
     - aiohttp
     - backoff
     - boto3

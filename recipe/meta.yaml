@@ -32,7 +32,7 @@ requirements:
     - dask >=2.23.0
     - distributed >=2.23.0
     - filelock
-    - gilknocker>=0.4.1
+    - gilknocker >=0.4.1
     - importlib-metadata
     - ipywidgets
     - jmespath

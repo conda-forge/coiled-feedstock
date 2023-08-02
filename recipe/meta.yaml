@@ -1,5 +1,5 @@
 {% set name = "coiled" %}
-{% set version = "0.9.3" %}
+{% set version = "0.9.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 6b807b25aca557fdcec5b51107f9fddcba30134f91bb19d9460aaaa74dbc9d97
+  sha256: 10410c4bff5670daf8b1fe806744eca470850c8d1c4015bdb0a1a937ab701cb2
 
 build:
   noarch: python
@@ -24,7 +24,7 @@ requirements:
     - hatchling
     - hatch-vcs
   run:
-    - python >=3.8
+    - python >=3.7
     - aiohttp
     - backoff
     - boto3

@@ -40,6 +40,7 @@ requirements:
     - pip >=19.3
     - prometheus_client
     - rich >=11.2.0
+    - toml
     - setuptools >=49.3.0
     - typing-extensions
     - wheel

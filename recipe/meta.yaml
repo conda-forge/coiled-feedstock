@@ -1,5 +1,5 @@
 {% set name = "coiled" %}
-{% set version = "1.0.0" %}
+{% set version = "1.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 54fe20393f9dbc4d6d2af814b3ed89430ab96686e9121c36d3c3e8017a7749bf
+  sha256: c40e2e77fa92bb787ece5b1b62b7390d3ed229d02231efff9da05c1daa01e220
 
 build:
   noarch: python
@@ -31,6 +31,7 @@ requirements:
     - click >=7.1
     - dask >=2.23.0
     - distributed >=2.23.0
+    - fabric >=3.0
     - filelock
     - gilknocker >=0.4.1
     - importlib-metadata

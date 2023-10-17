@@ -45,6 +45,7 @@ requirements:
     - setuptools >=49.3.0
     - typing-extensions
     - wheel
+    - httpx
 
 test:
   requires:

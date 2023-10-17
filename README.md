@@ -156,6 +156,3 @@ Feedstock Maintainers
 * [@ntabris](https://github.com/ntabris/)
 * [@shughes-uk](https://github.com/shughes-uk/)
 
-
-<!-- dummy commit to enable rerendering -->
-

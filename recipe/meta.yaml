@@ -1,5 +1,5 @@
 {% set name = "coiled" %}
-{% set version = "1.1.9" %}
+{% set version = "1.1.10" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 0b719b1621c42b49b9c3aa10db1bd5523984eb4bdf7e379e17c01fa00526637a
+  sha256: ba7bf828e9081504c502a6aa611486d357c208c3b2deec4d523a17d312e1ca38
 
 build:
   noarch: python
@@ -40,6 +40,7 @@ requirements:
     - jmespath
     - jsondiff
     - paramiko >=2.4
+    - pip-requirements-parser
     - pip >=19.3
     - prometheus_client
     - rich >=11.2.0

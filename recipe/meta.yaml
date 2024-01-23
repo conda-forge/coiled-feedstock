@@ -34,7 +34,7 @@ requirements:
     - fabric >=3.0
     - filelock
     - gilknocker >=0.4.1
-    - httpx >= 0.15
+    - httpx >=0.15
     - importlib-metadata
     - invoke >=2.0
     - ipywidgets

@@ -1,5 +1,5 @@
 {% set name = "coiled" %}
-{% set version = "1.28.1" %}
+{% set version = "1.29.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 32a642208a170bb7f8142898a41e4fb5dbe1490eb1db1eeda3883d4ac48f9437
+  sha256: c46d749f46dc1582f8980b7172d244620206c869dd27aa5755b74183b1bce33d
 
 build:
   noarch: python

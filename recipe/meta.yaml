@@ -11,20 +11,20 @@ source:
 
 build:
   noarch: python
-  number: 0
+  number: 1
   script: {{ PYTHON }} -m pip install . -vv
   entry_points:
     - coiled = coiled.cli.core:cli
 
 requirements:
   host:
-    - python >=3.8
+    - python {{ python_min }}
     - pip
     - wheel
     - hatchling
     - hatch-vcs
   run:
-    - python >=3.7
+    - python >={{ python_min }}
     - aiohttp
     - backoff
     - boto3
@@ -53,6 +53,7 @@ requirements:
 test:
   requires:
     - pip
+    - python {{ python_min }}
   commands:
     - pip check
     - coiled login --help

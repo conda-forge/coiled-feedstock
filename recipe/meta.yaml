@@ -64,8 +64,8 @@ test:
 
 about:
   home: https://coiled.io
-  license: BSD-3-Clause
-  license_family: BSD
+  license: Elastic-2.0
+  license_family: Elastic
   license_file: LICENSE
   summary: Deploy Dask cluster using Coiled Cloud
 

@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/coiled-feedstoc
 
 Home: https://coiled.io
 
-Package license: BSD-3-Clause
+Package license: Elastic-2.0
 
 Summary: Deploy Dask cluster using Coiled Cloud
 

@@ -1,13 +1,13 @@
 {% set name = "coiled" %}
-{% set version = "1.135.4" %}
+{% set version = "1.135.5" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://files.pythonhosted.org/packages/5c/7f/ddc4d86b9e0d36e6780819490ba2417400100a1ea5ee7fc8c11bfc260d17/coiled-{{ version }}.tar.gz
-  sha256: a3dbbfa9510218afc4d009c1c1262fd8162699e8e4fb35079d32fe14224e53f0
+  url: https://files.pythonhosted.org/packages/c6/b4/3195ab685a2f6cee8f11d047f337dc6eab4cd3d57e45ec29d099576659c9/coiled-{{ version }}.tar.gz
+  sha256: e665ed8ef619c7d5158e252f8544fbbd181f77a0644b052386f7c9007f8457f6
 
 build:
   noarch: python
